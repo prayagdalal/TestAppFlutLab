@@ -100,8 +100,12 @@ class CounterView extends StatelessWidget {
       body: Center(
         child: BlocBuilder<CounterBloc, int>(
           builder: (context, count) {
-            return Text('$count',
-                style: Theme.of(context).textTheme.displayLarge);
+            return Column(
+              children: [
+                Text('Hello World'),
+                Text('$count', style: Theme.of(context).textTheme.displayLarge),
+              ],
+            );
           },
         ),
       ),
