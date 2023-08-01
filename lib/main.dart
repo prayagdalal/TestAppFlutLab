@@ -26,6 +26,7 @@ class AppBlocObserver extends BlocObserver {
   }
 }
 
+//afswfsf
 /// {@template app}
 /// A [StatelessWidget] that:
 /// * uses [bloc](https://pub.dev/packages/bloc) and
